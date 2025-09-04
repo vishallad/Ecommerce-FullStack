@@ -6,7 +6,7 @@ What's Happening Behind the Scene
 2. User, Payment, Authentication Services working in Sync
 3. Different SQL Database for different servicies
 4. Fault taulrance with eureka server
-5. Payment Service running behind and capturing payment in system,
+5. Payment Service capturing payment in system with system through webhook,
 
 1. Register/Login
    <img width="1710" height="1107" alt="image" src="https://github.com/user-attachments/assets/5be58bc3-236a-46ca-8be0-c1153fafe72c" />
