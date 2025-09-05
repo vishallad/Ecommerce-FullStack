@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a0fedb5-d745-432e-949b-3f9a06de2b2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AuthService/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/AuthServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/Repositories/TokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/Repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/commons/ApplicationCommons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/dtos/LogOutReqDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/dtos/LoginReqDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/dtos/LoginResDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/dtos/SendEmailDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/dtos/SignUpReqDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/dtos/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/models/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/models/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/models/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/servicies/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/org/example/authservice/servicies/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/test/java/org/example/authservice/AuthServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/org/example/paymentservice/PaymentServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/org/example/paymentservice/controllers/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/org/example/paymentservice/controllers/StripeWebhookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/org/example/paymentservice/dto/GeneratePaymentLinkDtoReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/org/example/paymentservice/dto/GeneratePaymentLinkRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/org/example/paymentservice/dto/OrderProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/org/example/paymentservice/servicies/PaymentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/org/example/paymentservice/servicies/PaymentGatewaySelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/org/example/paymentservice/servicies/PaymentGatewaySelectorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/org/example/paymentservice/servicies/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/org/example/paymentservice/servicies/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/org/example/paymentservice/servicies/RazorPayGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/org/example/paymentservice/servicies/StripeGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/test/java/org/example/paymentservice/PaymentServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/CapstoneprojectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/Controllers/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/Controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/Repositories/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/Repositories/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/Repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/Services/FakeServiceProductImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/Services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/Services/ProductDBService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/Services/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/Services/SearchServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/configs/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/dtos/CreateOrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/dtos/CreateOrderSuccessDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/dtos/CreateProductRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/dtos/ErrorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/dtos/FakeProductRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/dtos/FakeStoreProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/dtos/ProductResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/dtos/SearchRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/exceptions/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/models/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/models/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/models/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/models/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/models/OrdersProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/java/org/example/capstoneproject/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/src/test/java/org/example/capstoneproject/CapstoneprojectApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/AuthService" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="328Q1w5HtJVhOYQDqpCifQNzGE4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.AuthServiceApplication.executor": "Run",
+    "Spring Boot.CapstoneprojectApplication.executor": "Run",
+    "Spring Boot.ConfigServerApplication.executor": "Run",
+    "Spring Boot.EurekaApplication.executor": "Run",
+    "Spring Boot.GatewayApplication.executor": "Run",
+    "Spring Boot.PaymentServiceApplication.executor": "Debug",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/vishallad/IdeaProjects/Ecommerce",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="AuthServiceApplication" value="STOPPED" />
+              <entry key="CapstoneprojectApplication" value="STOPPED" />
+              <entry key="ConfigServerApplication" value="STOPPED" />
+              <entry key="EurekaApplication" value="FAILED" />
+              <entry key="GatewayApplication" value="STOPPED" />
+              <entry key="PaymentServiceApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AuthServiceApplication">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Capstoneproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="AuthService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.authservice.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CapstoneprojectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Capstoneproject" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.capstoneproject.CapstoneprojectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="configServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fitness.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fitness.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fitness.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="PaymentService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.paymentservice.PaymentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a0fedb5-d745-432e-949b-3f9a06de2b2c" name="Changes" comment="" />
+      <created>1756799507846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756799507846</updated>
+      <workItem from="1756799508934" duration="29000" />
+      <workItem from="1756803321400" duration="6000" />
+      <workItem from="1756803507131" duration="5363000" />
+      <workItem from="1756808896870" duration="6633000" />
+      <workItem from="1756833699633" duration="1090000" />
+      <workItem from="1756835309332" duration="10927000" />
+      <workItem from="1756908558925" duration="2358000" />
+      <workItem from="1756911085093" duration="1078000" />
+      <workItem from="1756912169661" duration="175000" />
+      <workItem from="1756913605391" duration="2237000" />
+      <workItem from="1756915939364" duration="11823000" />
+      <workItem from="1756989461003" duration="13616000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.service.spi.ServiceException" package="org.hibernate.service.spi" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.stripe.model.Event$Data" memberName="responseGetter" />
+        <PinnedItemInfo parentTag="com.stripe.model.Event" memberName="lastResponse" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="paymentIntent" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
